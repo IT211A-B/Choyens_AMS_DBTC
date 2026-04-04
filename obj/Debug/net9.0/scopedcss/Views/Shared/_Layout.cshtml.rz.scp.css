@@ -1,0 +1,124 @@
+:root[b-il1wh1eamo] {
+    --primary-color: #4361ee;
+    --secondary-color: #3f37c9;
+    --dark-color: #2b2d42;
+    --light-color: #f8f9fa;
+    --success-color: #4cc9f0;
+}
+
+body[b-il1wh1eamo] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.top-bar[b-il1wh1eamo] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo[b-il1wh1eamo] {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img[b-il1wh1eamo] {
+        height: 50px;
+        margin-right: 10px;
+    }
+
+.logo-title[b-il1wh1eamo] {
+    font-weight: bold;
+}
+
+.logo-subtitle[b-il1wh1eamo] {
+    font-size: 0.8rem;
+}
+
+.user-profile[b-il1wh1eamo] {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar[b-il1wh1eamo] {
+    background-color: var(--dark-color);
+    color: white;
+    height: calc(100vh - 60px);
+    position: fixed;
+    padding-top: 20px;
+}
+
+    .sidebar .nav-link[b-il1wh1eamo] {
+        color: rgba(255, 255, 255, 0.8);
+        padding: 10px 20px;
+        transition: all 0.3s;
+    }
+
+        .sidebar .nav-link:hover[b-il1wh1eamo], .sidebar .nav-link.active[b-il1wh1eamo] {
+            color: white;
+            background-color: var(--primary-color);
+            border-radius: 0 30px 30px 0;
+        }
+
+.main-content[b-il1wh1eamo] {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.card[b-il1wh1eamo] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+    .card:hover[b-il1wh1eamo] {
+        transform: translateY(-5px);
+    }
+
+.card-icon[b-il1wh1eamo] {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.recent-activities[b-il1wh1eamo] {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activity-item[b-il1wh1eamo] {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+    .activity-item:last-child[b-il1wh1eamo] {
+        border-bottom: none;
+    }
+
+.status-present[b-il1wh1eamo] {
+    color: green;
+    font-weight: bold;
+}
+
+.status-absent[b-il1wh1eamo] {
+    color: red;
+    font-weight: bold;
+}
+
+.footer[b-il1wh1eamo] {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}

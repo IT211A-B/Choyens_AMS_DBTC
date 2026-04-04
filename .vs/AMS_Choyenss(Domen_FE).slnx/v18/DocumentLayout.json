@@ -1,0 +1,670 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\teacher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\enrollment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\enrollment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\enrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\teacherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\teacherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\enrollmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\enrollmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\models\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:models\\attendanceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\teacher.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\teacher.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\attendance.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\student.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\student.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\enrollment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\enrollment.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\course.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\course.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|d:\\ams_bsit2(domen)\\ams_choyenss(domen_fe)\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0439158-1545-86D0-C678-591BFD3F810A}|AMS_Choyenss(Domen_FE).csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 32,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:05:49.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Enrollment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enrollment\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Enrollment\\Index.cshtml",
+              "RelativeToolTip": "Views\\Enrollment\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:04:46.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:03:53.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Teacher\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Teacher\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Teacher\\Index.cshtml",
+              "RelativeToolTip": "Views\\Teacher\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:03:02.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:02:12.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T14:01:24.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T12:55:02.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-04T12:12:16.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TeacherViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\TeacherViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\TeacherViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\TeacherViewModel.cs",
+              "RelativeToolTip": "Models\\TeacherViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:22:02.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\StudentViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\StudentViewModel.cs",
+              "RelativeToolTip": "Models\\StudentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:21:43.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EnrollmentViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\EnrollmentViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EnrollmentViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\EnrollmentViewModel.cs",
+              "RelativeToolTip": "Models\\EnrollmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:21:17.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\DashboardViewModel.cs",
+              "RelativeToolTip": "Models\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA4wAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:20:49.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CourseViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\CourseViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CourseViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\CourseViewModel.cs",
+              "RelativeToolTip": "Models\\CourseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:20:11.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AttendanceViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\AttendanceViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AttendanceViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\AttendanceViewModel.cs",
+              "RelativeToolTip": "Models\\AttendanceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:19:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Teacher.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Teacher.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Teacher.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Teacher.css",
+              "RelativeToolTip": "wwwroot\\css\\Teacher.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:11:23.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Student.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Student.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Student.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Student.css",
+              "RelativeToolTip": "wwwroot\\css\\Student.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:10:31.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Enrollment.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Enrollment.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Enrollment.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Enrollment.css",
+              "RelativeToolTip": "wwwroot\\css\\Enrollment.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:10:07.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Dashboard.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Dashboard.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Dashboard.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Dashboard.css",
+              "RelativeToolTip": "wwwroot\\css\\Dashboard.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:09:47.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Course.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Course.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Course.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Course.css",
+              "RelativeToolTip": "wwwroot\\css\\Course.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:09:29.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Attendance.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Attendance.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Attendance.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\Attendance.css",
+              "RelativeToolTip": "wwwroot\\css\\Attendance.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T09:09:00.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:07:42.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnrollmentController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\EnrollmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EnrollmentController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\EnrollmentController.cs",
+              "RelativeToolTip": "Controllers\\EnrollmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:07:25.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:06:47.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:05:49.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T09:00:21.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T08:54:46.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-04T08:50:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T08:49:54.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T08:21:19.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T08:20:37.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T08:16:51.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T08:15:56.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T07:39:57.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T07:39:47.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T07:39:39.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:39:22.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:39:15.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\AMS_BSIT2(Domen)\\AMS_Choyenss(Domen_FE)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:38:49.407Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
