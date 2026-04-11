@@ -100,5 +100,6 @@ D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\08nw8c5kb
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\0h4h2ywctx-{0}-dyjx89twm7-dyjx89twm7.gz
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\zx7yksmo1z-{0}-dyjx89twm7-dyjx89twm7.gz
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\armefoyqi8-{0}-dyjx89twm7-dyjx89twm7.gz
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\m8w0wihdbk-{0}-rygdlhvnyc-rygdlhvnyc.gz
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\95z4glktyl-{0}-rygdlhvnyc-rygdlhvnyc.gz
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\AMS_Choyenss(Domen_FE).sourcelink.json
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\m8w0wihdbk-{0}-qr77lvfn6k-qr77lvfn6k.gz
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\obj\Debug\net9.0\compressed\95z4glktyl-{0}-qr77lvfn6k-qr77lvfn6k.gz

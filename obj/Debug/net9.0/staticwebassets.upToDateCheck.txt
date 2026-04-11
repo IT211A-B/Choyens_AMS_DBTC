@@ -67,7 +67,13 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Attendance.css
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Course.css
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Dashboard.css
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Enrollment.css
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\site.css
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Student.css
+D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Teacher.css
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\favicon.ico
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\js\site.js
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -129,9 +135,3 @@ D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\lib\jquery\dist\jquery.slim.j
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\lib\jquery\dist\jquery.slim.min.map
 D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\lib\jquery\LICENSE.txt
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Attendance.css
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Course.css
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Dashboard.css
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Enrollment.css
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Student.css
-D:\AMS_BSIT2(Domen)\AMS_Choyenss(Domen_FE)\wwwroot\css\Teacher.css
