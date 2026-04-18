@@ -1,4 +1,4 @@
-﻿namespace Attendance_Management_System.Models.dto
+﻿namespace Attendance_Management_System.DTO
 {
     public class Enrollmentdto
     {

@@ -1,6 +1,6 @@
 ﻿using Attendance_Management_System.Data;
-using Attendance_Management_System.Models.dto;
-using Attendance_Management_System.Models.Entities;
+using Attendance_Management_System.DTO;
+using Attendance_Management_System.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Attendance_Management_System.Models.Entities
+namespace Attendance_Management_System.Models
 {
     public class Attendance
     {

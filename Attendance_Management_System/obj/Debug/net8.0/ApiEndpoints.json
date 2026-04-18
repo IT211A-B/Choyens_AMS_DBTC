@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Attendancedto",
+        "Type": "Attendance_Management_System.DTO.Attendancedto",
         "IsRequired": true
       }
     ],
@@ -40,7 +40,7 @@
       },
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Attendancedto",
+        "Type": "Attendance_Management_System.DTO.Attendancedto",
         "IsRequired": true
       }
     ],
@@ -72,7 +72,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Coursedto",
+        "Type": "Attendance_Management_System.DTO.Coursedto",
         "IsRequired": true
       }
     ],
@@ -103,7 +103,7 @@
       },
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Coursedto",
+        "Type": "Attendance_Management_System.DTO.Coursedto",
         "IsRequired": true
       }
     ],
@@ -145,7 +145,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Enrollmentdto",
+        "Type": "Attendance_Management_System.DTO.Enrollmentdto",
         "IsRequired": true
       }
     ],
@@ -176,7 +176,7 @@
       },
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Enrollmentdto",
+        "Type": "Attendance_Management_System.DTO.Enrollmentdto",
         "IsRequired": true
       }
     ],
@@ -208,7 +208,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Studentdto",
+        "Type": "Attendance_Management_System.DTO.Studentdto",
         "IsRequired": true
       }
     ],
@@ -224,7 +224,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Attendance_Management_System.Models.dto.StudentReadDTO, Attendance_Management_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Attendance_Management_System.DTO.StudentReadDTO, Attendance_Management_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -250,7 +250,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Attendance_Management_System.Models.dto.StudentReadDTO",
+        "Type": "Attendance_Management_System.DTO.StudentReadDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -275,7 +275,7 @@
       },
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Studentdto",
+        "Type": "Attendance_Management_System.DTO.Studentdto",
         "IsRequired": true
       }
     ],
@@ -307,7 +307,7 @@
     "Parameters": [
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Teacherdto",
+        "Type": "Attendance_Management_System.DTO.Teacherdto",
         "IsRequired": true
       }
     ],
@@ -323,7 +323,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Attendance_Management_System.Models.dto.TeacherReadDTO, Attendance_Management_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Attendance_Management_System.DTO.TeacherReadDTO, Attendance_Management_System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -349,7 +349,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Attendance_Management_System.Models.dto.TeacherReadDTO",
+        "Type": "Attendance_Management_System.DTO.TeacherReadDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -374,7 +374,7 @@
       },
       {
         "Name": "dto",
-        "Type": "Attendance_Management_System.Models.dto.Teacherdto",
+        "Type": "Attendance_Management_System.DTO.Teacherdto",
         "IsRequired": true
       }
     ],

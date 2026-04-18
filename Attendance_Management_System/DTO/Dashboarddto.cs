@@ -1,4 +1,4 @@
-﻿namespace Attendance_Management_System.Models.dto
+﻿namespace Attendance_Management_System.dto
 {
     public class Dashboarddto
     {

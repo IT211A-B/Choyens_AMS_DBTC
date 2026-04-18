@@ -1,4 +1,4 @@
-﻿using Attendance_Management_System.Models.Entities;
+﻿using Attendance_Management_System.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Attendance_Management_System.Data

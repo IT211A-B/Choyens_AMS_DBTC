@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Attendance_Management_System.Models.Entities
+namespace Attendance_Management_System.Models
 {
     public class Student
     {
