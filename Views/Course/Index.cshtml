@@ -1,9 +1,0 @@
-﻿@model IEnumerable<CourseViewModel>
-<h2>Course List</h2>
-<table class="table">
-    <tr><th>Code</th><th>Name</th></tr>
-    @foreach (var c in Model)
-    {
-        <tr><td>@c.CourseCode</td><td>@c.CourseName</td></tr>
-    }
-</table>
