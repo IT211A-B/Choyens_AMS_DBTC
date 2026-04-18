@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AMS_Choyenss(Domen_FE)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20c8d51e083921756808777f2d1b96ddca1f4aba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80b1a891c35915909e4c0b60c3d73d11bc24c8c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AMS_Choyenss(Domen_FE)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AMS_Choyenss(Domen_FE)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
