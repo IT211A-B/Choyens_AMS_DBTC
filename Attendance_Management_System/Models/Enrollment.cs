@@ -12,9 +12,9 @@ namespace Attendance_Management_System.Models
         public int CourseId { get; set; }
 
         [ForeignKey("StudentId")]
-        public Student Student { get; set; }
+        public Student Student { get; set; } = null!;
 
         [ForeignKey("CourseId")]
-        public Course Course { get; set; }
+        public Course Course { get; set; } = null!;
     }
 }

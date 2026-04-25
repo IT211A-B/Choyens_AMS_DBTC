@@ -12,12 +12,13 @@ namespace Attendance_Management_System.Models
         public int CourseId { get; set; }
 
         [ForeignKey("StudentId")]
-        public Student Student { get; set  ; }
+        public Student Student { get; set; } = null!;
 
         [ForeignKey("CourseId")]
-        public Course Course { get; set; }
+        public Course Course { get; set; } = null!;
 
         public DateTime Date { get; set; } = DateTime.Now;
-        public string Status { get; set; }
-    } 
+        public string Status { get; set; } = string.Empty;
+        public int IsPresent { get; set; }
+    }
 }
