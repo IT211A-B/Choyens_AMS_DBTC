@@ -10,46 +10,52 @@
     <link rel="stylesheet" href="~/css/_Layout.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AMS_DBTC_Frontend.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
 
-    <header class="topbar">
+    <div class="sidebar-header">
 
-        <div class="logo">
-            AMS_DBTC_Frontend
+        <img src="images/donbosco.jpg" alt="Logo" class="logo">
+
+        <div class="system-title">
+            <h2 class ="bold-text">Attendance System</h2>
+            <p>Management Portal</p>
         </div>
 
-    </header>
-
+    </div>
 
     <div class="main-layout">
 
         <aside class="sidebar">
-
-            <h4>Navigation</h4>
-
             <a asp-controller="Home" asp-action="Index">
+                <i class="fas fa-gauge"></i>
                 Dashboard
             </a>
 
             <a asp-controller="Home" asp-action="Privacy">
+                <i class="fas fa-user"></i>
                 Student
             </a>
 
             <a asp-controller="Home" asp-action="Teacher">
+                <i class="fas fa-user-tie"></i>
                 Teacher
             </a>
 
             <a asp-controller="Home" asp-action="Course">
+                <i class="fas fa-book"></i>
                 Course
             </a>
 
             <a asp-controller="Home" asp-action="Enrolment">
+                <i class="fas fa-clipboard-list"></i>
                 Enrolment
             </a>
 
             <a asp-controller="Home" asp-action="Attendance">
+                <i class="fas fa-calendar-check"></i>
                 Attendance
             </a>
 
