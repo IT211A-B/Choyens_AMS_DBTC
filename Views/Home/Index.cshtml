@@ -2,8 +2,109 @@
     ViewData["Title"] = "Dashboard";
 }
 <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+<script src="~/js/Index.js" asp-append-version="true"></script>
 
-<div>
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="dashboard">
+
+    <div class="dashboard-title">
+        <h1>Welcome to Attendance Management</h1>
+        <p>Overview of Attendance Management System</p>
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="cards">
+
+        <div class="card">
+            <div>
+                <h4>Total Students</h4>
+                <h2 id="students">00.0</h2>
+            </div>
+
+            <i class="fa-solid fa-users"></i>
+        </div>
+
+        <div class="card">
+            <div>
+                <h4>Total Teachers</h4>
+                <h2 id="teachers">00.0</h2>
+            </div>
+
+            <i class="fa-solid fa-chalkboard-user"></i>
+        </div>
+
+        <div class="card">
+            <div>
+                <h4>Active Courses</h4>
+                <h2 id="courses">00.0</h2>                      
+            </div>
+
+            <i class="fa-solid fa-book-open-reader"></i>
+        </div>
+
+        <div class="card">
+            <div>
+                <h4>Today's Attendance</h4>
+                <h2 id="attendance">00.0%</h2>
+            </div>
+
+            <i class="fa-solid fa-list-check"></i>
+        </div>
+
+    </div>
+
+    <!-- CONTENT GRID -->
+
+    <div class="content-grid">
+
+        <!-- ACTIVITIES -->
+
+        <div class="activities">
+
+            <div class="section-header">
+                Recent Activities
+            </div>
+
+            <div id="activity-list">
+
+                <div class="activity">
+                    <i class="fa-solid fa-user-check"></i>
+
+                    <div>
+                        <strong>Full Name</strong>
+                        marked
+                        <span class="present">Present</span>
+
+                        <p>Course</p>
+                    </div>
+                </div>
+
+                <div class="activity">
+                    <i class="fa-solid fa-user-check"></i>
+
+                    <div>
+                        <strong>Full Name</strong>
+                        marked
+                        <span class="present">Present</span>
+
+                        <p>Course</p>
+                    </div>
+                </div>
+
+                <div class="activity">
+                    <i class="fa-solid fa-user-xmark"></i>
+
+                    <div>
+                        <strong>Full Name</strong>
+                        marked
+                        <span class="absent">Absent</span>
+
+                        <p>Course</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 </div>

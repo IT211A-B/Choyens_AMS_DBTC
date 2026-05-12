@@ -2,7 +2,262 @@
     ViewData["Title"] = "Student";
 }
 <link rel="stylesheet" href="~/css/Privacy.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/js/Privacy.js" asp-append-version="true" />
 
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's student information.</p>
+<div class="students-page">
+
+    <!-- HEADER -->
+    <div class="students-header">
+
+        <div>
+            <h1>Students</h1>
+            <p>Manage student information and records</p>
+        </div>
+
+        <button class="add-btn" onclick="openAddModal()">
+            <i class="fa-solid fa-plus"></i>
+            Add Student
+        </button>
+
+    </div>
+
+    <!-- TABLE CONTAINER -->
+    <div class="students-container">
+
+        <!-- SEARCH -->
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search by name or Student ID..."
+                   onkeyup="searchStudent()">
+
+        </div>
+
+        <!-- TABLE -->
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>STUDENT ID</th>
+                    <th>STUDENT NAME</th>
+                    <th>COURSE & YEAR</th>
+                    <th>SUBJECT CODE</th>
+                    <th>DATE</th>
+                    <th>STATUS</th>
+                    <th>ACTIONS</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="studentTable">
+
+                <tr>
+
+                    <td>101226</td>
+                    <td>Jan Arles</td>
+                    <td>BSME - 1</td>
+                    <td>IT 211A</td>
+                    <td>Jan 30, 2026</td>
+
+                    <td>
+                        <span class="status present-status">
+                            Present
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>112217</td>
+                    <td>Raphael Pal</td>
+                    <td>BSIT - 2</td>
+                    <td>IT 212A</td>
+                    <td>Feb 02, 2026</td>
+
+                    <td>
+                        <span class="status present-status">
+                            Present
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>121362</td>
+                    <td>Irish Dela Cruz</td>
+                    <td>BSIT - 1</td>
+                    <td>IT 210A</td>
+                    <td>Feb 04, 2026</td>
+
+                    <td>
+                        <span class="status present-status">
+                            Present
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>131123</td>
+                    <td>Vanneza Domen</td>
+                    <td>BSIT - 1</td>
+                    <td>NSTP 202</td>
+                    <td>Feb 05, 2026</td>
+
+                    <td>
+                        <span class="status absent-status">
+                            Absent
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <!-- FOOTER -->
+        <div class="table-footer">
+
+            <p>
+                Total Records:
+                <span id="totalRecords">4</span>
+            </p>
+
+            <p class="present-text">
+                Present:
+                <span id="presentCount">3</span>
+            </p>
+
+            <p class="absent-text">
+                Absent:
+                <span id="absentCount">1</span>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ADD / EDIT MODAL -->
+<div class="modal" id="studentModal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2 id="modalTitle">Add Student</h2>
+
+            <i class="fa-solid fa-xmark"
+               onclick="closeModal()"></i>
+
+        </div>
+
+        <div class="form-group">
+            <label>Student ID</label>
+            <input type="text" id="studentId">
+        </div>
+
+        <div class="form-group">
+            <label>Student Name</label>
+            <input type="text" id="studentName">
+        </div>
+
+        <div class="form-group">
+            <label>Course & Year</label>
+            <input type="text" id="courseYear">
+        </div>
+
+        <div class="form-group">
+            <label>Subject Code</label>
+            <input type="text" id="subjectCode">
+        </div>
+
+        <div class="form-group">
+            <label>Date</label>
+            <input type="date" id="date">
+        </div>
+
+        <div class="form-group">
+            <label>Status</label>
+
+            <select id="status">
+
+                <option>Present</option>
+                <option>Absent</option>
+
+            </select>
+
+        </div>
+
+        <button class="save-btn"
+                onclick="saveStudent()">
+
+            Save Student
+
+        </button>
+
+    </div>
+
+</div>
