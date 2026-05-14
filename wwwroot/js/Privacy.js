@@ -1,23 +1,31 @@
-<script>
-
 let editingRow = null;
 
-function openAddModal(){
+/* OPEN MODAL */
 
-    document.getElementById("studentModal").style.display = "flex";
+function openAddModal() {
 
-    document.getElementById("modalTitle").innerText = "Add Student";
+    editingRow = null;
+
+    document.getElementById("modalTitle").innerText =
+        "Add Student";
 
     clearForm();
+
+    document.getElementById("studentModal").style.display =
+        "flex";
 }
 
-function closeModal(){
+/* CLOSE MODAL */
 
-    document.getElementById("studentModal").style.display = "none";
+function closeModal() {
 
+    document.getElementById("studentModal").style.display =
+        "none";
 }
 
-function clearForm(){
+/* CLEAR FORM */
+
+function clearForm() {
 
     document.getElementById("studentId").value = "";
     document.getElementById("studentName").value = "";
@@ -25,31 +33,50 @@ function clearForm(){
     document.getElementById("subjectCode").value = "";
     document.getElementById("date").value = "";
     document.getElementById("status").value = "Present";
-
 }
 
-function saveStudent(){
+/* SAVE STUDENT */
 
-    let id = document.getElementById("studentId").value;
-    let name = document.getElementById("studentName").value;
-    let course = document.getElementById("courseYear").value;
-    let subject = document.getElementById("subjectCode").value;
-    let date = document.getElementById("date").value;
-    let status = document.getElementById("status").value;
+function saveStudent() {
 
-    if(id === "" || name === ""){
+    let id =
+        document.getElementById("studentId").value;
+
+    let name =
+        document.getElementById("studentName").value;
+
+    let course =
+        document.getElementById("courseYear").value;
+
+    let subject =
+        document.getElementById("subjectCode").value;
+
+    let date =
+        document.getElementById("date").value;
+
+    let status =
+        document.getElementById("status").value;
+
+    if (
+        id === "" ||
+        name === "" ||
+        course === "" ||
+        subject === "" ||
+        date === ""
+    ) {
 
         alert("Please fill all fields!");
         return;
-
     }
 
     let statusClass =
         status === "Present"
-        ? "present-status"
-        : "absent-status";
+            ? "present-status"
+            : "absent-status";
 
-    if(editingRow){
+    /* EDIT */
+
+    if (editingRow != null) {
 
         editingRow.cells[0].innerText = id;
         editingRow.cells[1].innerText = name;
@@ -58,24 +85,34 @@ function saveStudent(){
         editingRow.cells[4].innerText = date;
 
         editingRow.cells[5].innerHTML =
-        `<span class="status ${statusClass}">
-            ${status}
-        </span>`;
+            `<span class="status ${statusClass}">
+                ${status}
+            </span>`;
 
         editingRow = null;
 
-    }else{
+    }
 
-        let table = document.getElementById("studentTable");
+    /* ADD */
 
-        let row = table.insertRow();
+    else {
+
+        let table =
+            document.getElementById("studentTable");
+
+        let row =
+            table.insertRow();
 
         row.innerHTML = `
 
             <td>${id}</td>
+
             <td>${name}</td>
+
             <td>${course}</td>
+
             <td>${subject}</td>
+
             <td>${date}</td>
 
             <td>
@@ -96,104 +133,110 @@ function saveStudent(){
                    onclick="deleteStudent(this)"></i>
 
             </td>
-
         `;
-
     }
 
     updateCounts();
 
     closeModal();
-
 }
 
-function deleteStudent(button){
+/* DELETE */
 
-    if(confirm("Delete this student?")){
+function deleteStudent(button) {
 
-        let row = button.parentElement.parentElement;
+    if (confirm("Delete this student?")) {
+
+        let row =
+            button.parentElement.parentElement;
 
         row.remove();
 
         updateCounts();
-
     }
-
 }
 
-function viewStudent(button){
+/* VIEW */
 
-    let row = button.parentElement.parentElement;
+function viewStudent(button) {
 
-    let data = `
-Student ID: ${row.cells[0].innerText}
-Name: ${row.cells[1].innerText}
-Course: ${row.cells[2].innerText}
-Subject: ${row.cells[3].innerText}
-Date: ${row.cells[4].innerText}
-Status: ${row.cells[5].innerText}
-    `;
+    let row =
+        button.parentElement.parentElement;
+
+    let data =
+
+        "Student ID: " + row.cells[0].innerText + "\n" +
+        "Name: " + row.cells[1].innerText + "\n" +
+        "Course: " + row.cells[2].innerText + "\n" +
+        "Subject: " + row.cells[3].innerText + "\n" +
+        "Date: " + row.cells[4].innerText + "\n" +
+        "Status: " + row.cells[5].innerText;
 
     alert(data);
-
 }
 
-function editStudent(button){
+/* EDIT */
 
-    editingRow = button.parentElement.parentElement;
+function editStudent(button) {
+
+    editingRow =
+        button.parentElement.parentElement;
 
     document.getElementById("studentId").value =
-    editingRow.cells[0].innerText;
+        editingRow.cells[0].innerText;
 
     document.getElementById("studentName").value =
-    editingRow.cells[1].innerText;
+        editingRow.cells[1].innerText;
 
     document.getElementById("courseYear").value =
-    editingRow.cells[2].innerText;
+        editingRow.cells[2].innerText;
 
     document.getElementById("subjectCode").value =
-    editingRow.cells[3].innerText;
+        editingRow.cells[3].innerText;
 
     document.getElementById("date").value =
-    editingRow.cells[4].innerText;
+        editingRow.cells[4].innerText;
 
     document.getElementById("status").value =
-    editingRow.cells[5].innerText.trim();
+        editingRow.cells[5].innerText.trim();
 
     document.getElementById("modalTitle").innerText =
-    "Edit Student";
+        "Edit Student";
 
     document.getElementById("studentModal").style.display =
-    "flex";
-
+        "flex";
 }
 
-function searchStudent(){
+/* SEARCH */
+
+function searchStudent() {
 
     let input =
-    document.getElementById("searchInput").value.toLowerCase();
+        document.getElementById("searchInput")
+            .value
+            .toLowerCase();
 
     let rows =
-    document.querySelectorAll("#studentTable tr");
+        document.querySelectorAll("#studentTable tr");
 
     rows.forEach(row => {
 
         let text =
-        row.innerText.toLowerCase();
+            row.innerText.toLowerCase();
 
         row.style.display =
-        text.includes(input)
-        ? ""
-        : "none";
-
+            text.includes(input)
+                ? ""
+                : "none";
     });
-
 }
 
-function updateCounts(){
+/* COUNTS */
+
+function updateCounts() {
 
     let rows =
-    document.querySelectorAll("#studentTable tr");
+        document.querySelectorAll("#studentTable tr");
 
     let total = rows.length;
 
@@ -203,25 +246,22 @@ function updateCounts(){
     rows.forEach(row => {
 
         let status =
-        row.cells[5].innerText.trim();
+            row.cells[5].innerText.trim();
 
-        if(status === "Present"){
+        if (status === "Present") {
             present++;
-        }else{
+        }
+        else {
             absent++;
         }
-
     });
 
     document.getElementById("totalRecords").innerText =
-    total;
+        total;
 
     document.getElementById("presentCount").innerText =
-    present;
+        present;
 
     document.getElementById("absentCount").innerText =
-    absent;
-
+        absent;
 }
-
-</script>

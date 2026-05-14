@@ -2,12 +2,10 @@
     ViewData["Title"] = "Student";
 }
 <link rel="stylesheet" href="~/css/Privacy.css" asp-append-version="true" />
-<link rel="stylesheet" href="~/js/Privacy.js" asp-append-version="true" />
-
+<script src="~/js/Privacy.js" asp-append-version="true"></script>
 
 <div class="students-page">
 
-    <!-- HEADER -->
     <div class="students-header">
 
         <div>
@@ -21,11 +19,9 @@
         </button>
 
     </div>
-
-    <!-- TABLE CONTAINER -->
+                                                                               
     <div class="students-container">
 
-        <!-- SEARCH -->
         <div class="search-box">
 
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -37,7 +33,6 @@
 
         </div>
 
-        <!-- TABLE -->
         <table>
 
             <thead>
@@ -58,8 +53,8 @@
 
                 <tr>
 
-                    <td>101226</td>
-                    <td>Jan Arles</td>
+                    <td>T - 01-226</td>
+                    <td>Jan Artes</td>
                     <td>BSME - 1</td>
                     <td>IT 211A</td>
                     <td>Jan 30, 2026</td>
@@ -111,72 +106,12 @@
                            onclick="deleteStudent(this)"></i>
 
                     </td>
-
-                </tr>
-
-                <tr>
-
-                    <td>121362</td>
-                    <td>Irish Dela Cruz</td>
-                    <td>BSIT - 1</td>
-                    <td>IT 210A</td>
-                    <td>Feb 04, 2026</td>
-
-                    <td>
-                        <span class="status present-status">
-                            Present
-                        </span>
-                    </td>
-
-                    <td class="actions">
-
-                        <i class="fa-solid fa-eye view"
-                           onclick="viewStudent(this)"></i>
-
-                        <i class="fa-solid fa-pen-to-square edit"
-                           onclick="editStudent(this)"></i>
-
-                        <i class="fa-solid fa-trash delete"
-                           onclick="deleteStudent(this)"></i>
-
-                    </td>
-
-                </tr>
-
-                <tr>
-
-                    <td>131123</td>
-                    <td>Vanneza Domen</td>
-                    <td>BSIT - 1</td>
-                    <td>NSTP 202</td>
-                    <td>Feb 05, 2026</td>
-
-                    <td>
-                        <span class="status absent-status">
-                            Absent
-                        </span>
-                    </td>
-
-                    <td class="actions">
-
-                        <i class="fa-solid fa-eye view"
-                           onclick="viewStudent(this)"></i>
-
-                        <i class="fa-solid fa-pen-to-square edit"
-                           onclick="editStudent(this)"></i>
-
-                        <i class="fa-solid fa-trash delete"
-                           onclick="deleteStudent(this)"></i>
-
-                    </td>
-
                 </tr>
 
             </tbody>
 
         </table>
 
-        <!-- FOOTER -->
         <div class="table-footer">
 
             <p>
@@ -200,7 +135,6 @@
 
 </div>
 
-<!-- ADD / EDIT MODAL -->
 <div class="modal" id="studentModal">
 
     <div class="modal-content">

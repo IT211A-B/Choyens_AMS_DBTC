@@ -1,73 +1,173 @@
-﻿// ===============================
-// DASHBOARD DATA (SAMPLE DATA)
-// ===============================
+﻿// DASHBOARD COUNTS
 
-// You can later replace this with API data
-const dashboardData = {
-    students: 120,
-    teachers: 15,
-    courses: 8,
-    attendance: 92
+let totalStudents = 156;
+let totalTeachers = 18;
+let totalCourses = 12;
+let attendanceRate = 94;
+
+// LOAD DASHBOARD
+
+window.onload = function () {
+
+    animateValue("students", totalStudents);
+    animateValue("teachers", totalTeachers);
+    animateValue("courses", totalCourses);
+
+    animatePercentage(
+        "attendance",
+        attendanceRate
+    );
+
+    loadActivities();
 };
 
-// ===============================
-// UPDATE DASHBOARD CARDS
-// ===============================
-document.getElementById("students").textContent = dashboardData.students;
-document.getElementById("teachers").textContent = dashboardData.teachers;
-document.getElementById("courses").textContent = dashboardData.courses;
-document.getElementById("attendance").textContent = dashboardData.attendance + "%";
+// ANIMATION COUNTER
 
-// ===============================
-// SAMPLE ACTIVITIES DATA
-// ===============================
-const activities = [
-    {
-        name: "Juan Dela Cruz",
-        status: "Present",
-        course: "BSIT 2A",
-        icon: "fa-user-check",
-        type: "present"
-    },
-    {
-        name: "Maria Santos",
-        status: "Present",
-        course: "BSIT 2B",
-        icon: "fa-user-check",
-        type: "present"
-    },
-    {
-        name: "John Reyes",
-        status: "Absent",
-        course: "BSIT 2A",
-        icon: "fa-user-xmark",
-        type: "absent"
-    }
-];
+function animateValue(id, endValue) {
 
-// ===============================
-// LOAD ACTIVITIES INTO HTML
-// ===============================
-const activityList = document.getElementById("activity-list");
+    let element =
+        document.getElementById(id);
 
-activityList.innerHTML = ""; // clear default content
+    let startValue = 0;
 
-activities.forEach(activity => {
+    let duration = 1000;
 
-    const div = document.createElement("div");
-    div.classList.add("activity");
+    let increment =
+        endValue / (duration / 20);
 
-    div.innerHTML = `
-        <i class="fa-solid ${activity.icon}"></i>
+    let counter = setInterval(() => {
 
-        <div>
-            <strong>${activity.name}</strong>
-            marked
-            <span class="${activity.type}">${activity.status}</span>
+        startValue += increment;
 
-            <p>${activity.course}</p>
-        </div>
-    `;
+        if (startValue >= endValue) {
 
-    activityList.appendChild(div);
-});
+            startValue = endValue;
+
+            clearInterval(counter);
+        }
+
+        element.innerText =
+            Math.floor(startValue);
+
+    }, 20);
+}
+
+// PERCENTAGE ANIMATION
+
+function animatePercentage(id, endValue) {
+
+    let element =
+        document.getElementById(id);
+
+    let startValue = 0;
+
+    let duration = 1000;
+
+    let increment =
+        endValue / (duration / 20);
+
+    let counter = setInterval(() => {
+
+        startValue += increment;
+
+        if (startValue >= endValue) {
+
+            startValue = endValue;
+
+            clearInterval(counter);
+        }
+
+        element.innerText =
+            Math.floor(startValue) + "%";
+
+    }, 20);
+}
+
+// RECENT ACTIVITIES
+
+function loadActivities() {
+
+    let activities = [
+
+        {
+            name: "Jan Arles",
+            status: "Present",
+            course: "BSME - 1",
+            icon: "fa-user-check"
+        },
+
+        {
+            name: "Raphael Pal",
+            status: "Present",
+            course: "BSIT - 2",
+            icon: "fa-user-check"
+        },
+
+        {
+            name: "Irish Dela Cruz",
+            status: "Present",
+            course: "BSIT - 1",
+            icon: "fa-user-check"
+        },
+
+        {
+            name: "Vanneza Domen",
+            status: "Absent",
+            course: "BSIT - 1",
+            icon: "fa-user-xmark"
+        },
+
+        {
+            name: "Nine Boragay",
+            status: "Late",
+            course: "BSIT - 2",
+            icon: "fa-clock"
+        }
+
+    ];
+
+    let activityList =
+        document.getElementById("activity-list");
+
+    activityList.innerHTML = "";
+
+    activities.forEach(activity => {
+
+        let statusClass = "";
+
+        if (activity.status === "Present") {
+
+            statusClass = "present";
+        }
+        else if (activity.status === "Absent") {
+
+            statusClass = "absent";
+        }
+        else {
+
+            statusClass = "late";
+        }
+
+        activityList.innerHTML += `
+
+            <div class="activity">
+
+                <i class="fa-solid ${activity.icon}"></i>
+
+                <div>
+
+                    <strong>${activity.name}</strong>
+                    marked
+
+                    <span class="${statusClass}">
+                        ${activity.status}
+                    </span>
+
+                    <p>${activity.course}</p>
+
+                </div>
+
+            </div>
+        `;
+    });
+}

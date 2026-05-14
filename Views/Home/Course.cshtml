@@ -2,11 +2,200 @@
     ViewData["Title"] = "Course";
 }
 <link rel="stylesheet" href="~/css/Course.css" asp-append-version="true" />
+<script src="~/js/Course.js" asp-append-version="true"></script>
 
-<div>
+<div class="course-page">
 
-    <h1>Course Page</h1>
+    <div class="course-header">
 
-    <p>This is the Course module.</p>
+        <div>
+            <h1>Courses</h1>
+            <p>Manage course offerings and schedules</p>
+        </div>
+
+        <button class="add-btn" onclick="openAddModal()">
+            <i class="fa-solid fa-plus"></i>
+            Add Course
+        </button>
+
+    </div>
+
+    <div class="courses-container">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search by course name, code, or department..."
+                   onkeyup="searchCourse()">
+
+        </div>
+
+        <!-- Table is diri tung collums and rows for the data that you input and view, delete, edit -->
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>COURSE ID</th>
+                    <th>COURSE NAME</th>
+                    <th>DEPARTMENT</th>
+                    <th>YEAR/SEMESTER</th>
+                    <th>UNITS</th>
+                    <th>STATUS</th>
+                    <th>ACTIONS</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="courseTable">
+
+                <tr>
+
+                    <td>T - 01-226</td>
+                    <td>Name Course</td>
+                    <td>Department</td>
+                    <td>SY/Semester</td>
+                    <td>00</td>
+
+                    <td>
+                        <span class="status active-status">
+                            Active
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>T - 01-226</td>
+                    <td>Name Course</td>
+                    <td>Department</td>
+                    <td>SY/Semester</td>
+                    <td>00</td>
+
+                    <td>
+                        <span class="status active-status">
+                            Active
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewStudent(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editStudent(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteStudent(this)"></i>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <div class="table-footer">
+
+            <p>
+                Total Courses:
+                <span id="totalCourses">4</span>
+            </p>
+
+            <p class="Active-text">
+                Active:
+                <span id="activeCount">3</span>
+            </p>
+
+            <p class="inactive-text">
+                Inactive:
+                <span id="inactiveCount">1</span>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Modal is diri tung sa button na Add Course -->
+
+<div class="modal" id="courseModal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2 id="modalTitle">Add Course</h2>
+
+            <i class="fa-solid fa-xmark"
+               onclick="closeModal()"></i>
+
+        </div>
+
+        <div class="form-group">
+            <label>Course ID</label>
+            <input type="text" id="courseId">
+        </div>
+
+        <div class="form-group">
+            <label>Course Name</label>
+            <input type="text" id="courseName">
+        </div>
+
+        <div class="form-group">
+            <label>Department</label>
+            <input type="text" id="department">
+        </div>
+
+        <div class="form-group">
+            <label>Year/Semester</label>
+            <input type="text" id="yearSemester">
+        </div>
+
+        <div class="form-group">
+            <label>Units</label>
+            <input type="number" id="units">
+        </div>
+
+        <div class="form-group">
+            <label>Status</label>
+
+            <select id="status">
+
+                <option>Active</option>
+                <option>Inactive</option>
+
+            </select>
+
+        </div>
+
+        <button class="save-btn"
+                onclick="saveCourse()">
+
+            Save Course
+
+        </button>
+
+    </div>
 
 </div>

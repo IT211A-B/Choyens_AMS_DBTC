@@ -1,12 +1,196 @@
 ﻿@{
-    ViewData["Title"] = "Enrolment";
+    ViewData["Title"] = "Enrolments";
 }
+
 <link rel="stylesheet" href="~/css/Enrolment.css" asp-append-version="true" />
+<script src="~/js/Enrolment.js"></script>
 
-<div>
+<div class="enrolment-page">
 
-    <h1>Enrolment Page</h1>
+    <!-- HEADER -->
 
-    <p>This is the Enrolment module.</p>
+    <div class="enrolment-header">
+
+        <div>
+            <h1>Enrolments</h1>
+            <p>Manage student course enrolments</p>
+        </div>
+
+        <button class="add-btn" onclick="openAddModal()">
+            <i class="fa-solid fa-plus"></i>
+            Add Enrolment
+        </button>
+
+    </div>
+
+    <!-- TABLE -->
+
+    <div class="enrolments-container">
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search by student name, ID, or course code..."
+                   onkeyup="searchEnrolment()">
+
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>ENROLMENT ID</th>
+                    <th>STUDENT</th>
+                    <th>COURSE</th>
+                    <th>YEAR/SEMESTER</th>
+                    <th>STATUS</th>
+                    <th>ACTIONS</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="enrolmentTable">
+
+                <tr>
+
+                    <td>E001</td>
+
+                    <td>
+                        <strong>Jan Arles</strong><br>
+                        101226
+                    </td>
+
+                    <td>
+                        <strong>IT 211A</strong><br>
+                        Database Management Systems
+                    </td>
+
+                    <td>
+                        BSME - 1 - 1st Semester
+                    </td>
+
+                    <td>
+                        <span class="status enrolled-status">
+                            Enrolled
+                        </span>
+                    </td>
+
+                    <td class="actions">
+
+                        <i class="fa-solid fa-eye view"
+                           onclick="viewEnrolment(this)"></i>
+
+                        <i class="fa-solid fa-pen-to-square edit"
+                           onclick="editEnrolment(this)"></i>
+
+                        <i class="fa-solid fa-trash delete"
+                           onclick="deleteEnrolment(this)"></i>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <div class="table-footer">
+
+            <p>
+                Total Enrolments:
+                <span id="totalEnrolments">1</span>
+            </p>
+
+            <p class="enrolled-text">
+                Enrolled:
+                <span id="enrolledCount">1</span>
+            </p>
+
+            <p class="dropped-text">
+                Dropped:
+                <span id="droppedCount">0</span>
+            </p>
+
+            <p class="completed-text">
+                Completed:
+                <span id="completedCount">0</span>
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL -->
+
+<div class="modal" id="enrolmentModal">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2 id="modalTitle">Add Enrolment</h2>
+
+            <i class="fa-solid fa-xmark"
+               onclick="closeModal()"></i>
+
+        </div>
+
+        <div class="form-group">
+            <label>Student ID</label>
+            <input type="text" id="studentId">
+        </div>
+
+        <div class="form-group">
+            <label>Student Name</label>
+            <input type="text" id="studentName">
+        </div>
+
+        <div class="form-group">
+            <label>Course Code</label>
+            <input type="text" id="courseCode">
+        </div>
+
+        <div class="form-group">
+            <label>Course Name</label>
+            <input type="text" id="courseName">
+        </div>
+
+        <div class="form-group">
+            <label>Year Level</label>
+            <input type="text" id="yearLevel">
+        </div>
+
+        <div class="form-group">
+            <label>Semester</label>
+            <input type="text" id="semester">
+        </div>
+
+        <div class="form-group">
+            <label>Status</label>
+
+            <select id="status">
+
+                <option>Enrolled</option>
+                <option>Dropped</option>
+                <option>Completed</option>
+
+            </select>
+
+        </div>
+
+        <button class="save-btn"
+                onclick="saveEnrolment()">
+
+            Save Enrolment
+
+        </button>
+
+    </div>
 
 </div>
