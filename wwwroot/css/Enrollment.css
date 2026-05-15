@@ -1,22 +1,22 @@
-﻿.enrolment-page {
+﻿.enrollment-page {
     width: 100%;
 }
 
 /* HEADER */
 
-.enrolment-header {
+.enrollment-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-    .enrolment-header h1 {
+    .enrollment-header h1 {
         font-size: 38px;
         margin: 0;
     }
 
-    .enrolment-header p {
+    .enrollment-header p {
         color: #666;
         margin: 0;
     }
@@ -41,7 +41,7 @@
 
 /* CONTAINER */
 
-.enrolments-container {
+.enrollments-container {
     background: white;
     border-radius: 18px;
     border: 1px solid #ddd;

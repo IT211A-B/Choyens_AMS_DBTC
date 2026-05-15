@@ -5,16 +5,16 @@ function openAddModal() {
     editingRow = null;
 
     document.getElementById("modalTitle").innerText =
-        "Add Enrolment";
+        "Add Enrollment";
 
     clearForm();
 
-    document.getElementById("enrolmentModal").style.display =
+    document.getElementById("enrollmentModal").style.display =
         "flex";
 }
 
 function closeModal() {
-    document.getElementById("enrolmentModal").style.display =
+    document.getElementById("enrollmentModal").style.display =
         "none";
 }
 
@@ -29,7 +29,7 @@ function clearForm() {
     document.getElementById("status").value = "Enrolled";
 }
 
-function saveEnrolment() {
+function saveEnrollment() {
 
     let studentId =
         document.getElementById("studentId").value;
@@ -79,7 +79,7 @@ function saveEnrolment() {
     if (editingRow == null) {
 
         let table =
-            document.getElementById("enrolmentTable");
+            document.getElementById("enrollmentTable");
 
         let row = table.insertRow();
 
@@ -109,13 +109,13 @@ function saveEnrolment() {
             <td class="actions">
 
                 <i class="fa-solid fa-eye view"
-                   onclick="viewEnrolment(this)"></i>
+                   onclick="viewEnrollment(this)"></i>
 
                 <i class="fa-solid fa-pen-to-square edit"
-                   onclick="editEnrolment(this)"></i>
+                   onclick="editEnrollment(this)"></i>
 
                 <i class="fa-solid fa-trash delete"
-                   onclick="deleteEnrolment(this)"></i>
+                   onclick="deleteEnrollment(this)"></i>
 
             </td>
         `;
@@ -142,13 +142,13 @@ function saveEnrolment() {
     closeModal();
 }
 
-function editEnrolment(button) {
+function editEnrollment(button) {
 
     editingRow =
         button.parentElement.parentElement;
 
     document.getElementById("modalTitle").innerText =
-        "Edit Enrolment";
+        "Edit Enrollment";
 
     let student =
         editingRow.cells[1].innerText.split("\n");
@@ -180,13 +180,13 @@ function editEnrolment(button) {
     document.getElementById("status").value =
         editingRow.cells[4].innerText.trim();
 
-    document.getElementById("enrolmentModal").style.display =
+    document.getElementById("enrollmentModal").style.display =
         "flex";
 }
 
-function deleteEnrolment(button) {
+function deleteEnrollment(button) {
 
-    if (confirm("Delete this enrolment?")) {
+    if (confirm("Delete this enrollment?")) {
 
         let row =
             button.parentElement.parentElement;
@@ -197,7 +197,7 @@ function deleteEnrolment(button) {
     }
 }
 
-function viewEnrolment(button) {
+function viewEnrollment(button) {
 
     let row =
         button.parentElement.parentElement;
@@ -205,7 +205,7 @@ function viewEnrolment(button) {
     alert(row.innerText);
 }
 
-function searchEnrolment() {
+function searchEnrollment() {
 
     let input =
         document.getElementById("searchInput")
@@ -213,7 +213,7 @@ function searchEnrolment() {
             .toLowerCase();
 
     let rows =
-        document.querySelectorAll("#enrolmentTable tr");
+        document.querySelectorAll("#enrollmentTable tr");
 
     rows.forEach(row => {
 
@@ -230,7 +230,7 @@ function searchEnrolment() {
 function updateCounts() {
 
     let rows =
-        document.querySelectorAll("#enrolmentTable tr");
+        document.querySelectorAll("#enrollmentTable tr");
 
     let enrolled = 0;
     let dropped = 0;
@@ -252,7 +252,7 @@ function updateCounts() {
         }
     });
 
-    document.getElementById("totalEnrolments").innerText =
+    document.getElementById("totalEnrollments").innerText =
         rows.length;
 
     document.getElementById("enrolledCount").innerText =

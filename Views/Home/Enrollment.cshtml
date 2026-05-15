@@ -1,31 +1,31 @@
 ﻿@{
-    ViewData["Title"] = "Enrolments";
+    ViewData["Title"] = "Enrollments";
 }
 
-<link rel="stylesheet" href="~/css/Enrolment.css" asp-append-version="true" />
-<script src="~/js/Enrolment.js"></script>
+<link rel="stylesheet" href="~/css/Enrollment.css" asp-append-version="true" />
+<script src="~/js/Enrollment.js"></script>
 
-<div class="enrolment-page">
+<div class="enrollment-page">
 
     <!-- HEADER -->
 
-    <div class="enrolment-header">
+    <div class="enrollment-header">
 
         <div>
-            <h1>Enrolments</h1>
-            <p>Manage student course enrolments</p>
+            <h1>Enrollments</h1>
+            <p>Manage student course enrollments</p>
         </div>
 
         <button class="add-btn" onclick="openAddModal()">
             <i class="fa-solid fa-plus"></i>
-            Add Enrolment
+            Add Enrollment
         </button>
 
     </div>
 
     <!-- TABLE -->
 
-    <div class="enrolments-container">
+    <div class="enrollments-container">
 
         <div class="search-box">
 
@@ -34,7 +34,7 @@
             <input type="text"
                    id="searchInput"
                    placeholder="Search by student name, ID, or course code..."
-                   onkeyup="searchEnrolment()">
+                   onkeyup="searchEnrollment()">
 
         </div>
 
@@ -43,7 +43,7 @@
             <thead>
 
                 <tr>
-                    <th>ENROLMENT ID</th>
+                    <th>ENROLLMENT ID</th>
                     <th>STUDENT</th>
                     <th>COURSE</th>
                     <th>YEAR/SEMESTER</th>
@@ -53,7 +53,7 @@
 
             </thead>
 
-            <tbody id="enrolmentTable">
+            <tbody id="enrollmentTable">
 
                 <tr>
 
@@ -101,8 +101,8 @@
         <div class="table-footer">
 
             <p>
-                Total Enrolments:
-                <span id="totalEnrolments">1</span>
+                Total Enrollments:
+                <span id="totalEnrollments">1</span>
             </p>
 
             <p class="enrolled-text">
@@ -128,13 +128,13 @@
 
 <!-- MODAL -->
 
-<div class="modal" id="enrolmentModal">
+<div class="modal" id="enrollmentModal">
 
     <div class="modal-content">
 
         <div class="modal-header">
 
-            <h2 id="modalTitle">Add Enrolment</h2>
+            <h2 id="modalTitle">Add Enrollment</h2>
 
             <i class="fa-solid fa-xmark"
                onclick="closeModal()"></i>
@@ -185,9 +185,9 @@
         </div>
 
         <button class="save-btn"
-                onclick="saveEnrolment()">
+                onclick="saveEnrollment()">
 
-            Save Enrolment
+            Save Enrollment
 
         </button>
 

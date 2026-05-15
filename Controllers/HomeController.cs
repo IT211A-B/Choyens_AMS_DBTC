@@ -4,14 +4,9 @@ using System.Diagnostics;
 
 namespace AMS_DBTC_Frontend.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(ILogger<HomeController> logger) : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        private readonly ILogger<HomeController> _logger = logger;
 
         public IActionResult Index()
         {
@@ -31,7 +26,7 @@ namespace AMS_DBTC_Frontend.Controllers
             return View();
         }
 
-        public IActionResult Enrolment()
+        public IActionResult Enrollment()
         {
             return View();
         }

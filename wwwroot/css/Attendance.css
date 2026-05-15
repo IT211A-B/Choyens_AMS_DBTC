@@ -17,6 +17,7 @@
     }
 
     .attendance-header p {
+        margin-right: auto;
         color: #666;
         margin-top: 5px;
     }

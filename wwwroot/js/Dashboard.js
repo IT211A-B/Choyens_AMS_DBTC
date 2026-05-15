@@ -20,20 +20,6 @@ const activities = [
         icon: "fa-user-check",
         type: "present"
     },
-    {
-        name: "Maria Santos",
-        status: "Present",
-        course: "BSIT 2B",
-        icon: "fa-user-check",
-        type: "present"
-    },
-    {
-        name: "John Reyes",
-        status: "Absent",
-        course: "BSIT 2A",
-        icon: "fa-user-xmark",
-        type: "absent"
-    }
 ];
 // LOAD ACTIVITIES INTO HTML
 const activityList = document.getElementById("activity-list");
