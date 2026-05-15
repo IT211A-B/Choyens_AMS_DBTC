@@ -20,12 +20,6 @@ namespace Attendance_Management_System.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Coursedto dto)
         {
-            var teacherExists = await _context.Teachers.AnyAsync(t => t.Id == dto.TeacherId);
-
-            if (!teacherExists)
-                return BadRequest("Teacher not found.");
-
-
             var course = new Course
             {
                 CourseCode = dto.CourseCode,
@@ -38,7 +32,6 @@ namespace Attendance_Management_System.Controllers
 
             return Ok(course);
         }
-
 
         
         [HttpGet]
