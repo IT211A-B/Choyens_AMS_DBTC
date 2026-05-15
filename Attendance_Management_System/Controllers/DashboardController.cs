@@ -24,12 +24,15 @@ namespace Attendance_Management_System.Controllers
             var totalTeachers = _context.Teachers.Count();
             var totalCourses = _context.Courses.Count();
 
+            var today = DateTime.UtcNow.Date;
+
             var presentToday = _context.Attendances
-                .Where(a => a.Date.Date == DateTime.Today && a.Status == "Present")
+                .Where(a => a.Date.Date == today && a.Status == "Present")
                 .Count();
 
+
             var totalToday = _context.Attendances
-                .Where(a => a.Date.Date == DateTime.Today)
+                .Where(a => a.Date.Date == today)
                 .Count();
 
             double attendanceRate = totalToday == 0 ? 0 :
