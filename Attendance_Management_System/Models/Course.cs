@@ -11,7 +11,7 @@ namespace Attendance_Management_System.Models
         public string CourseCode { get; set; } = string.Empty;
         public string CourseName { get; set; } = string.Empty;
 
-        public int TeacherId { get; set; }
+        public int TeacherId { get; set; } 
 
         [ForeignKey("TeacherId")]
         public Teacher Teacher { get; set; } = null!;

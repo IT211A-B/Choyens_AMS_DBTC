@@ -35,7 +35,7 @@ namespace Attendance_Management_System.Controllers
                 .Select(t => new TeacherReadDTO
                 {
                     Id = t.Id,
-                    Name = t.Name
+                    Name = t.Name,
                 })
                 .ToListAsync();
 
