@@ -5,10 +5,10 @@
 <link rel="stylesheet" href="~/css/Enrollment.css" asp-append-version="true" />
 <script src="~/js/Enrollment.js"></script>
 
+<!-- Enrollment Page -->
 <div class="enrollment-page">
 
-    <!-- HEADER -->
-
+    <!-- Header section with title and add button -->
     <div class="enrollment-header">
 
         <div>
@@ -23,8 +23,7 @@
 
     </div>
 
-    <!-- TABLE -->
-
+    <!-- Enrollment table and search box -->
     <div class="enrollments-container">
 
         <div class="search-box">
@@ -40,6 +39,7 @@
 
         <table>
 
+            <!-- Table headings -->
             <thead>
 
                 <tr>
@@ -53,6 +53,7 @@
 
             </thead>
 
+            <!-- Enrollment data -->
             <tbody id="enrollmentTable">
 
                 <tr>
@@ -98,6 +99,7 @@
 
         </table>
 
+        <!-- Table footer for enrollment counts -->
         <div class="table-footer">
 
             <p>
@@ -126,12 +128,13 @@
 
 </div>
 
-<!-- MODAL -->
-
+<!-- Add/Edit Enrollment Modal -->
 <div class="modal" id="enrollmentModal">
 
+    <!-- Modal content -->
     <div class="modal-content">
 
+        <!-- Modal header -->
         <div class="modal-header">
 
             <h2 id="modalTitle">Add Enrollment</h2>
@@ -141,6 +144,7 @@
 
         </div>
 
+        <!-- Enrollment form fields -->
         <div class="form-group">
             <label>Student ID</label>
             <input type="text" id="studentId">
@@ -184,6 +188,7 @@
 
         </div>
 
+        <!-- Save enrollment button -->
         <button class="save-btn"
                 onclick="saveEnrollment()">
 

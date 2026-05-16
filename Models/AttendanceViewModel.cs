@@ -1,23 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace AMS_DBTC_Frontend.Models
+﻿namespace AMS_DBTC_Frontend.Models
 {
-    public class AttendanceViewModel
+    public class AttendanceDto
     {
+        // PRIMARY KEY
         public int Id { get; set; }
 
+        // STUDENT ID FROM BACKEND
         public int StudentId { get; set; }
 
-        public string StudentName { get; set; } = string.Empty;
-
+        // COURSE ID FROM BACKEND
         public int CourseId { get; set; }
 
-        public string CourseName { get; set; } = string.Empty;
-
+        // DATE OF ATTENDANCE
         public DateTime Date { get; set; }
 
+        // PRESENT / ABSENT / LATE
         public string Status { get; set; } = string.Empty;
 
+        // TRUE OR FALSE
         public bool IsPresent { get; set; }
     }
 }

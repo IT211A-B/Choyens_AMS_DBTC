@@ -1,11 +1,28 @@
+using AMS_DBTC_Frontend.Service;
+using AMS_DBTC_Frontend.Services;
+
+
+// Create builder
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add MVC services
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddHttpClient<IAttendanceService, AttendanceService>();
+
+// REGISTER HTTP CLIENT
+builder.Services.AddHttpClient();
+
+
+// REGISTER ATTENDANCE SERVICE
+builder.Services.AddScoped<IAttendanceService, AttendanceService>();
+// REGISTER ATTENDANCE SERVICE
+builder.Services.AddScoped<IAttendanceService, AttendanceService>();
+
+var app = builder.Build();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configure error handling
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -13,17 +30,22 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Enable HTTPS
 app.UseHttpsRedirection();
+
+// Enable CSS, JS, Images
+app.UseStaticFiles();
+
+// Enable routing
 app.UseRouting();
 
+// Enable authorization
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
+// Default page route
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+// Run application
 app.Run();

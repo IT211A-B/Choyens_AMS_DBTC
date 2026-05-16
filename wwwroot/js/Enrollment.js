@@ -1,5 +1,7 @@
-﻿let editingRow = null;
+﻿// Store selected row for editing
+let editingRow = null;
 
+// Open add enrollment modal
 function openAddModal() {
 
     editingRow = null;
@@ -13,11 +15,13 @@ function openAddModal() {
         "flex";
 }
 
+// Close modal
 function closeModal() {
     document.getElementById("enrollmentModal").style.display =
         "none";
 }
 
+// Clear form inputs
 function clearForm() {
 
     document.getElementById("studentId").value = "";
@@ -29,6 +33,7 @@ function clearForm() {
     document.getElementById("status").value = "Enrolled";
 }
 
+// Save enrollment data
 function saveEnrollment() {
 
     let studentId =
@@ -142,6 +147,7 @@ function saveEnrollment() {
     closeModal();
 }
 
+// Edit enrollment record
 function editEnrollment(button) {
 
     editingRow =
@@ -184,6 +190,7 @@ function editEnrollment(button) {
         "flex";
 }
 
+// Delete enrollment record
 function deleteEnrollment(button) {
 
     if (confirm("Delete this enrollment?")) {
@@ -197,6 +204,7 @@ function deleteEnrollment(button) {
     }
 }
 
+// View enrollment details
 function viewEnrollment(button) {
 
     let row =
@@ -205,6 +213,7 @@ function viewEnrollment(button) {
     alert(row.innerText);
 }
 
+// Search enrollment records
 function searchEnrollment() {
 
     let input =
@@ -227,6 +236,7 @@ function searchEnrollment() {
     });
 }
 
+// Update enrollment counts
 function updateCounts() {
 
     let rows =

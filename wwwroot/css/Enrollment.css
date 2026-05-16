@@ -1,9 +1,9 @@
-﻿.enrollment-page {
+﻿/* Enrollment Page */
+.enrollment-page {
     width: 100%;
 }
 
-/* HEADER */
-
+/* Header Section */
 .enrollment-header {
     display: flex;
     justify-content: space-between;
@@ -21,8 +21,7 @@
         margin: 0;
     }
 
-/* BUTTON */
-
+/* Add Button */
 .add-btn {
     background: #2563eb;
     color: white;
@@ -39,8 +38,7 @@
         background: #c2410c;
     }
 
-/* CONTAINER */
-
+/* Enrollment Container */
 .enrollments-container {
     background: white;
     border-radius: 18px;
@@ -48,8 +46,7 @@
     overflow: hidden;
 }
 
-/* SEARCH */
-
+/* Search Box */
 .search-box {
     padding: 20px;
     position: relative;
@@ -70,8 +67,7 @@
         color: #777;
     }
 
-/* TABLE */
-
+/* Enrollment Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -92,8 +88,7 @@ td {
     border-top: 1px solid #eee;
 }
 
-/* STATUS */
-
+/* Enrollment Status Design */
 .status {
     padding: 6px 14px;
     border-radius: 20px;
@@ -116,8 +111,7 @@ td {
     color: #2563eb;
 }
 
-/* ACTIONS */
-
+/* Action Buttons */
 .actions {
     display: flex;
     gap: 18px;
@@ -144,8 +138,7 @@ td {
     transform: scale(1.2);
 }
 
-/* FOOTER */
-
+/* Table Footer */
 .table-footer {
     display: flex;
     gap: 30px;
@@ -165,8 +158,7 @@ td {
     color: #2563eb;
 }
 
-/* MODAL */
-
+/* Modal Design */
 .modal {
     position: fixed;
     inset: 0;
@@ -196,6 +188,7 @@ td {
         font-size: 22px;
     }
 
+/* Form Inputs */
 .form-group {
     margin-bottom: 15px;
 }
@@ -214,6 +207,7 @@ td {
         border: 1px solid #ccc;
     }
 
+/* Save Button */
 .save-btn {
     width: 100%;
     background: #ea580c;
