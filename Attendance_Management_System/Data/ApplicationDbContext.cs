@@ -16,6 +16,8 @@ namespace Attendance_Management_System.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+
             base.OnModelCreating(modelBuilder);
 
 
